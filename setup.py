@@ -13,7 +13,7 @@ setuptools.setup(
       'PyGObject',
       'argparse',
       'cupy-cuda116',
-      'ccp4ed @ git+https://github.com/ccp4/electron-diffraction.git@exp#egg=ccp4ed'
+      'ccp4ed @ git+https://github.com/arkdavy/electron-diffraction.git@exp#egg=ccp4ed'
     ],
  #   package_data={'':['']},
     include_package_data=True,
