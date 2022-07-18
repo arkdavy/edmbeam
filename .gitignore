@@ -1,0 +1,10 @@
+__pycache__/
+examples/**/
+*.tiff
+*.pkl
+*.png
+*.log
+*.egg-info/
+dist/
+build/
+venv/
