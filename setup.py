@@ -9,9 +9,11 @@ setuptools.setup(
     # Dependencies/Other modules required for your package to work
     install_requires=[
       'wheel',
+      'tqdm',
       'pycairo',
       'PyGObject',
       'argparse',
+      'opencv-python',
       'cupy-cuda116',
       'ccp4ed @ git+https://github.com/arkdavy/electron-diffraction.git@exp#egg=ccp4ed'
     ],
@@ -20,7 +22,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'edmbeam = edmbeam.main:run_ed',
+            'edmbeam = edmbeam.main:run_edmbeam',
             'edmbeam_showtif = edmbeam.showtif:showtif',
             'edmbeam_converttif = edmbeam.converttif:converttif',
         ],

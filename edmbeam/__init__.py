@@ -1,1 +1,1 @@
-from .main import run_ed
+from .main import run_edmbeam
